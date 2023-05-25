@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-05-25T11:14:45.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="A_Ix4GN4ZVb3r9-u-i2q" version="21.3.3" type="github">
+  <diagram name="Page-1" id="s7AcB0m6s_H7qvarJmmd">
+    <mxGraphModel dx="724" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Design a generic offer system&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-2" target="VwqzOqP9o5EsryEy8_eC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-2" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-3" target="VwqzOqP9o5EsryEy8_eC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-3" value="Offer Rule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-4" value="Oauth for Auth purposes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-5" target="VwqzOqP9o5EsryEy8_eC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-5" value="POST /offer-rule&lt;br&gt;&lt;br&gt;{&lt;br&gt;versionId&lt;br&gt;name&lt;br&gt;activationTrigger&lt;br&gt;discount&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="600" width="135" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-6" value="&lt;h3&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Routes&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-7" value="{&lt;br&gt;&lt;br&gt;id,&lt;br&gt;versionId,&lt;br&gt;name,&lt;br&gt;activationTrigger,&lt;br&gt;discount,&lt;br&gt;discountType&lt;br&gt;&lt;br&gt;}" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="305" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-9" value="offerRule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-10" value="{&lt;br&gt;id,&lt;br&gt;oauthid,&lt;br&gt;name,&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-13" value="21, 1, Diwali Offer, 100, 10, flat&lt;br&gt;22, 0, Non Festive, 100, 10, percentage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="110" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-15" value="{&lt;br&gt;&lt;br&gt;id,&lt;br&gt;userId,&lt;br&gt;offerRuleId,&lt;br&gt;rechargeId,&lt;br&gt;transactionStatus&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="445" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-16" value="transactions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-19" value="offer-rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-20" target="VwqzOqP9o5EsryEy8_eC-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-20" value="GET /offer-rules&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="135" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-21" value="201 offerRuleId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-23" value="[{&lt;br&gt;offerRule&lt;br&gt;}]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-26" target="VwqzOqP9o5EsryEy8_eC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VwqzOqP9o5EsryEy8_eC-26" target="VwqzOqP9o5EsryEy8_eC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-26" value="POST /recharge&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;br&gt;userId: 1,&lt;br&gt;offerId: 21,&lt;br&gt;transactionAmount: 120&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="135" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-28" value="recordsId" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwqzOqP9o5EsryEy8_eC-30" value="recharge&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
