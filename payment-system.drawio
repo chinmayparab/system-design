@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-05-25T11:13:48.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="TiFidvefpp6aNdAONycZ" version="21.3.3" type="github">
+  <diagram name="Page-1" id="PWrggMK4hE45KSpdtjKw">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9tveUtX62-eGTDoK7Imw-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Escrow Payment system&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-2" target="9tveUtX62-eGTDoK7Imw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-2" value="Sender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-3" target="9tveUtX62-eGTDoK7Imw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-3" target="9tveUtX62-eGTDoK7Imw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-3" value="Escrow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-4" target="9tveUtX62-eGTDoK7Imw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-4" value="Receiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-7" target="9tveUtX62-eGTDoK7Imw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-7" value="transfer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tveUtX62-eGTDoK7Imw-9" target="9tveUtX62-eGTDoK7Imw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-9" value="{&lt;br&gt;&lt;br&gt;id,&lt;br&gt;senderId&lt;br&gt;receiverId,&lt;br&gt;amount,&lt;br&gt;conditions: have met, or havent,&lt;br&gt;status&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9tveUtX62-eGTDoK7Imw-11" value="halted&lt;br&gt;in progress&lt;br&gt;success&lt;br&gt;cancelled" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="450" width="150" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
